@@ -2,8 +2,8 @@ class Lexy < Formula
   include Language::Python::Virtualenv
   desc 'CLI tool that fetches programming tutorials from "Learn X in Y Minutes" directly into your terminal.'
   homepage 'https://github.com/antoniorodr/lexy'
-  url 'https://github.com/antoniorodr/lexy/releases/download/v0.4.3/lexy-0.4.3.tar.gz'
-  sha256 'db9a36be86bc627763f20586eacc8e4592d98983d8d7931ad29edddf1376bdb3'
+  url 'https://github.com/antoniorodr/lexy/releases/download/v0.4.4/lexy-0.4.4.tar.gz'
+  sha256 'ac6da50a5dcac8af963e668ec2d45afe6544b35e770cb4f6bdf4c451f76cd666'
   license 'MIT'
 
   livecheck do
