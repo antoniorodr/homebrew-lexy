@@ -2,8 +2,8 @@ class Lexy < Formula
   include Language::Python::Virtualenv
   desc 'CLI tool that fetches programming tutorials from "Learn X in Y Minutes" directly into your terminal.'
   homepage 'https://github.com/antoniorodr/lexy'
-  url 'https://github.com/antoniorodr/lexy/releases/download/v0.5.1/lexy-0.5.1.tar.gz'
-  sha256 '87fc41348e742574edeeebbc76f7ce8adadf07489e69cbf8e3e2e07d657a0db4'
+  url 'https://github.com/antoniorodr/lexy/releases/download/v0.5.2/lexy-0.5.2.tar.gz'
+  sha256 '5d8f8c64f58ee01aa944effcad89106ab9f6c61351a7ff9346ad31f427b14519'
   license 'MIT'
 
   livecheck do
@@ -71,7 +71,6 @@ class Lexy < Formula
     url 'https://files.pythonhosted.org/packages/cc/18/0bbf3884e9eaa38819ebe46a7bd25dcd56b67434402b66a58c4b8e552575/tomlkit-0.13.3.tar.gz'
     sha256 '430cf247ee57df2b94ee3fbe588e71d362a941ebb545dec29b53961d61add2a1'
   end
-
 
   def install
     virtualenv_install_with_resources
