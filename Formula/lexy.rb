@@ -2,8 +2,8 @@ class Lexy < Formula
   include Language::Python::Virtualenv
   desc 'CLI tool that fetches programming tutorials from "Learn X in Y Minutes" directly into your terminal.'
   homepage 'https://github.com/antoniorodr/lexy'
-  url 'https://github.com/antoniorodr/lexy/releases/download/v0.6.0/lexy-0.6.0.tar.gz'
-  sha256 '33b213b04486f4684d7ae0310694e581490aee378c5dc46674499a634ac8ff3b'
+  url 'https://github.com/antoniorodr/lexy/releases/download/v0.6.1/lexy-0.6.1.tar.gz'
+  sha256 '704999ccd2a27e820dd1d20bd76bf650f08a333b9f0170e15becaf6d70cbdeca'
   license 'MIT'
 
   livecheck do
@@ -13,63 +13,63 @@ class Lexy < Formula
   depends_on 'python@3.13'
 
   resource 'click' do
-    url 'https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz'
-    sha256 'ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a'
+    url 'https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz'
+    sha256 '14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5'
   end
 
   resource 'beautifulsoup4' do
-    url 'https://files.pythonhosted.org/packages/d8/e4/0c4c39e18fd76d6a628d4dd8da40543d136ce2d1752bd6eeeab0791f4d6b/beautifulsoup4-4.13.4.tar.gz'
-    sha256 'dbb3c4e1ceae6aefebdaf2423247260cd062430a410e38c66f2baa50a8437195'
+    url 'https://files.pythonhosted.org/packages/c3/b0/1c6a16426d389813b48d95e26898aff79abbde42ad353958ad95cc8c9b21/beautifulsoup4-4.14.3.tar.gz'
+    sha256 '6292b1c5186d356bba669ef9f7f051757099565ad9ada5dd630bd9de5fa7fb86'
   end
 
   resource 'requests' do
-    url 'https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz'
-    sha256 '55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760'
+    url 'https://files.pythonhosted.org/packages/5f/a4/98b9c7c6428a668bf7e42ebb7c79d576a1c3c1e3ae2d47e674b468388871/requests-2.33.1.tar.gz'
+    sha256 '18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517'
   end
 
   resource 'typer' do
-    url 'https://files.pythonhosted.org/packages/98/1a/5f36851f439884bcfe8539f6a20ff7516e7b60f319bbaf69a90dc35cc2eb/typer-0.15.3.tar.gz'
-    sha256 '818873625d0569653438316567861899f7e9972f2e6e0c16dab608345ced713c'
+    url 'https://files.pythonhosted.org/packages/f5/24/cb09efec5cc954f7f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz'
+    sha256 'e39b4732d65fbdcde189ae76cf7cd48aeae72919dea1fdfc16593be016256b45'
   end
 
   resource 'typing-extensions' do
-    url 'https://files.pythonhosted.org/packages/f6/37/23083fcd6e35492953e8d2aaaa68b860eb422b34627b13f2ce3eb6106061/typing_extensions-4.13.2.tar.gz'
-    sha256 'e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef'
+    url 'https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz'
+    sha256 '0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466'
   end
 
   resource 'urllib3' do
-    url 'https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz'
-    sha256 '414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466'
+    url 'https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz'
+    sha256 '1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed'
   end
 
   resource 'idna' do
-    url 'https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz'
-    sha256 '12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9'
+    url 'https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz'
+    sha256 '795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902'
   end
 
   resource 'certifi' do
-    url 'https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz'
-    sha256 '0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6'
+    url 'https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz'
+    sha256 'e887ab5cee78ea814d3472169153c2d12cd43b14bd03329a39a9c6e2e80bfba7'
   end
 
   resource 'rich' do
-    url 'https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz'
-    sha256 '82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725'
+    url 'https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz'
+    sha256 'edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36'
   end
 
   resource 'soupsieve' do
-    url 'https://files.pythonhosted.org/packages/3f/f4/4a80cd6ef364b2e8b65b15816a843c0980f7a5a2b4dc701fc574952aa19f/soupsieve-2.7.tar.gz'
-    sha256 'ad282f9b6926286d2ead4750552c8a6142bc4c783fd66b0293547c8fe6ae126a'
+    url 'https://files.pythonhosted.org/packages/7b/ae/2d9c981590ed9999a0d91755b47fc74f74de286b0f5cee14c9269041e6c4/soupsieve-2.8.3.tar.gz'
+    sha256 '3267f1eeea4251fb42728b6dfb746edc9acaffc4a45b27e19450b676586e8349'
   end
 
   resource 'chardet' do
-    url 'https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz'
-    sha256 '1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7'
+    url 'https://files.pythonhosted.org/packages/19/b6/9df434a8eeba2e6628c465a1dfa31034228ef79b26f76f46278f4ef7e49d/chardet-7.4.3.tar.gz'
+    sha256 'cc1d4eb92a4ec1c2df3b490836ffa46922e599d34ce0bb75cf41fd2bf6303d56'
   end
 
   resource 'tomlkit' do
-    url 'https://files.pythonhosted.org/packages/cc/18/0bbf3884e9eaa38819ebe46a7bd25dcd56b67434402b66a58c4b8e552575/tomlkit-0.13.3.tar.gz'
-    sha256 '430cf247ee57df2b94ee3fbe588e71d362a941ebb545dec29b53961d61add2a1'
+    url 'https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz'
+    sha256 'cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064'
   end
 
   def install
